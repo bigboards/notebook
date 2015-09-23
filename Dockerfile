@@ -2,9 +2,9 @@
 # Another Docker container should inherit with `FROM jupyter/notebook`
 # to run actual services.
 
-FROM ubuntu:14.04
+FROM bigboards/base-x86_64
 
-MAINTAINER Project Jupyter <jupyter@googlegroups.com>
+MAINTAINER BigBoards <hello@bigboards.io>
 
 ENV DEBIAN_FRONTEND noninteractive
 
