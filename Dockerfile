@@ -2,7 +2,7 @@
 # Another Docker container should inherit with `FROM jupyter/notebook`
 # to run actual services.
 
-FROM bigboards/base-x86_64
+FROM bigboards/base-__arch__
 
 MAINTAINER BigBoards <hello@bigboards.io>
 
